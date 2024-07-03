@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="all">
+            <div class="screen">
+                <div class="cal">
+                    <input id="calc" type="text">
+                </div>
+                <div class="result">
+                    <input id="results" type="text">
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="btnr">
+                    <button onclick="clearBtn()">C</button>
+                    <button onclick="delBtn()">DEL</button>
+                    <button onclick="btn('%')">%</button>
+                    <button onclick="btn('/')">/</button>
+                </div>
+                <div class="btnr">
+                    <button onclick="btn('7')">7</button>
+                    <button onclick="btn('8')">8</button>
+                    <button onclick="btn('9')">9</button>
+                    <button onclick="btn('*')">X</button>
+                </div>
+                <div class="btnr">
+                    <button onclick="btn('4')">4</button>
+                    <button onclick="btn('5')">5</button>
+                    <button onclick="btn('6')">6</button>
+                    <button onclick="btn('-')">-</button>
+                </div>
+                <div class="btnr">
+                    <button onclick="btn('1')">1</button>
+                    <button onclick="btn('2')">2</button>
+                    <button onclick="btn('3')">3</button>
+                    <button onclick="btn('+')">+</button>
+                </div>
+                <div class="btnr">
+                    <button onclick="btn('00')">00</button>
+                    <button onclick="btn('0')">0</button>
+                    <button onclick="btn('.')">.</button>
+                    <button onclick="equalTo()">=</button>
+                </div>
+                
+    
+            </div>
+        </div>
+        
+    </div>   
+</body>
+</html>
